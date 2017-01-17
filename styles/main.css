@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+}
+
+.sectionAll {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
