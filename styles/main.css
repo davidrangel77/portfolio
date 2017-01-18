@@ -3,10 +3,39 @@
 }
 .body {
   margin: 0;
+  font-family: Helvetica;
 }
 
-.sectionAll {
+.content {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.pageHeadingTitle {
+  font-size: 24px;
+  text-align-last: center;
+  background-color: lightgrey;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerLinks {
+  margin-right: 1%;
+}
+
+.footerSection {
+  background-color: lightgrey;
+}
+
+.footerList {
+  background-color: lightgrey;
+  padding-left: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 27%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 }

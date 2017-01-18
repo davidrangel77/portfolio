@@ -5,8 +5,9 @@ import Footer from './footer'
 export default React.createClass({
   render() {
     return (
-      <section className="sectionAll">
-        <h1>Blog Posts by D Rangel</h1>
+      <section>
+        <h1 className="pageHeadingTitle">Blog Posts by D Rangel</h1>
+        <div className="content">
         <div>
           <h2>"Oh, the weekend…(1.4–1.6)"</h2>
           <p>
@@ -30,6 +31,7 @@ export default React.createClass({
             I didn’t finish this post yesterday because, simply, I got distracted waiting for traffic to die down leaving Pearl and then busy making the lunch I forgot today, so I’ll continue in the bit of time we have left during lunch here on 1.2. For future reference (for us both) the “1” in 1.2 is the week, and the “2” in 1.2 is the day. Jason (our instructor) is designating the lessons in this week.day format so it will be easy to look back on it and figure out where and when these posts fit into the course. But back on track…
             The end of day one was a grand success in that the 8 person class is cohesive and working together. No one is terribly shy about answering aloud or asking questions, which is great for people that have a hard time asking questions and for future exercises where working more closely with people will be part of the exercise. It wasn’t a terribly hard day of learning, but it was a very productive day on the whole. I can’t say we’re looking forward to today…only because it’s already today. And that’s a separate post.
           </p>
+        </div>
         </div>
         <Footer/>
       </section>

@@ -5,8 +5,9 @@ import Footer from './footer'
 export default React.createClass({
   render() {
     return (
-      <section className="sectionAll">
-        <h1>Resume</h1>
+      <section>
+        <h1 className="pageHeadingTitle">Resume</h1>
+        <div className="content">
         <div>
           <p className="resumeHeaderText">David Rangel</p>
           <p className="resumeHeaderText">6719 Blue Oak Ln</p>
@@ -51,7 +52,8 @@ export default React.createClass({
             Reference: Stephen “Rusty” Jones, (210) 558-8387,  <a href="mailto:rustyjones@chrmedical.com">rustyjones@chrmedical.com</a>
           </p>
         </div>
-        <Footer/>
+      </div>
+      <Footer/>
       </section>
     )
   }
