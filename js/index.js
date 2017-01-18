@@ -14,7 +14,7 @@ import Projects from './projects'
 //    in order to use the browser's back button
 render(
   (
-    <Router history={hashHistory}>
+    <Router onUpdate={() => window.scrollTo(0, 0)} history={hashHistory}>
       <Route component={App}>
         <Route path="/" component={ Landing } />
         <Route path="/resume" component={ Resume } />

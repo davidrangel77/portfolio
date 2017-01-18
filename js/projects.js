@@ -10,8 +10,14 @@ export default React.createClass({
         <div className="content">
           <div>
           <h2>Ironyard Class Assignments</h2>
-          <p><a href="https://github.com/davidrangel77/assignments/tree/master/5.3-gift-react"> Refactoring our "gift buying list" assignment in React </a></p>
-          <p><a href="https://github.com/davidrangel77/assignments/tree/master/4.3-refactor-calculator"> Refactoring our "Calculator" assignment using jQuery</a></p>
+          <ul>
+            <li><a href="https://github.com/davidrangel77/assignments/tree/master/5.3-gift-react" target="_blank"> Refactoring our "gift buying list" assignment in React </a></li>
+            <li><a href="https://github.com/davidrangel77/assignments/tree/master/4.3-refactor-calculator" target="_blank"> Refactoring our "Calculator" assignment using jQuery</a></li>
+            <li><a href="https://github.com/davidrangel77/assignments" target="_blank"> Repository for most of our week 1-5 assignments
+            </a></li>
+          <li><a href="https://github.com/TCollins81/all-things-spurs" target="_blank"> Our group project for week 6
+          </a></li>
+          </ul>
           </div>
         </div>
         <Footer/>
