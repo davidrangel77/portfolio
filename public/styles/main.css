@@ -39,3 +39,10 @@
   margin-left: auto;
   margin-bottom: 0;
 }
+
+.landingPageText {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  text-align: center;
+}
