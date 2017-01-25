@@ -3,51 +3,148 @@
 }
 .body {
   margin: 0;
-  font-family: Helvetica;
+  font-family: Lucida Grande;
+  font-weight: lighter;
 }
 
 .content {
-  width: 90%;
-  margin-left: auto;
+  width: 80%;
+  margin-left: 10%;
   margin-right: auto;
 }
 
+.resumeContent {
+  width: 46%;
+  margin-left: 15%;
+  margin-right: auto;
+}
+
+.resumeContentRight {
+  float: right;
+  width: 32%;
+  margin-top: -19px;
+}
+
+.resumeDates {
+  font-weight: normal;
+  color: grey;
+}
+
+.resumeWhole{
+  margin-top: 50px;
+}
+
 .pageHeadingTitle {
-  font-size: 24px;
+  color: white;
+  font-size: 36px;
+  border-bottom: solid 2px grey;
   text-align-last: center;
   background-color: lightgrey;
   margin: 0;
+  height: 80px;
+  line-height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .footerLinks {
+  text-decoration: none;
+  font-size: 16px;
   margin-right: 1%;
+  margin-left: 1%;
+  padding: 8px 16px;
+  background-color: grey;
+  color: white;
+  border-radius: 4px;
 }
 
 .footerSection {
+  bottom: 0;
+  border-top: solid 2px grey;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 40px;
+  text-align: center;
   background-color: lightgrey;
 }
 
 .footerList {
   background-color: lightgrey;
   padding-left: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 27%;
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0;
 }
 
-.landingPageText {
+.resumeText {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.resumeHeaderText {
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.resumeHeaderTextName {
+  font-weight: bold;
+}
+
+.resumeContentEducation {
+
+}
+
+.techSkillsList {
+  list-style: none;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.blogWhole {
   margin-top: 50px;
+  min-height: 66.75vh;
+}
+
+.projectsWhole {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  min-height: 71.25vh;
+}
+
+.landingWhole {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  min-height: 65.50vh;
+}
+
+.landingTitle {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.landingPageText {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11%;
   margin-bottom: 50px;
   font-size: 18px;
   text-align: center;
 }
 
-.resumeJobText {
-  margin-left: 20px;
-  margin: right: 20px;
+.projectsList {
+  list-style: none;
+}
+
+.projectsName {
+  margin-bottom: 10px;
 }

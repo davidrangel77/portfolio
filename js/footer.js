@@ -4,14 +4,14 @@ import { Link } from 'react-router'
 export default React.createClass({
   render() {
     return (
-      <section className="footerSection">
+      <div className="footerSection">
         <ul className="footerList">
-          <Link to="/resume" className="footerLinks">Go To Resume</Link>
-          <Link to="/blog" className="footerLinks">Go To Blog</Link>
-          <Link to="/projects" className="footerLinks">Go To Projects</Link>
-          <Link to="/" className="footerLinks">Home</Link>
+          <Link to="/blog" className="footerLinks">BLOG POSTS</Link>
+          <Link to="/projects" className="footerLinks">COURSE PROJECTS</Link>
+          <Link to="/resume" className="footerLinks">RESUME</Link>
+          <Link to="/" className="footerLinks">HOME</Link>
         </ul>
-      </section>
+      </div>
     )
   }
 })
