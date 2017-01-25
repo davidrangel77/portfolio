@@ -5,8 +5,10 @@ import Footer from './footer'
 export default React.createClass({
   render() {
     return (
-      <section>
+      <section id="wrap">
+        <div id="main">
         { this.props.children }
+        </div>
         <Footer/>
       </section>
     )
