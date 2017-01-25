@@ -108,6 +108,9 @@
 }
 
 .blogWhole {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
   min-height: 66.75vh;
 }
@@ -116,14 +119,16 @@
   width: 80%;
   margin-left: 10%;
   margin-right: auto;
-  min-height: 71.25vh;
+  margin-top: 50px;
+  min-height: 66.75vh;
 }
 
 .landingWhole {
   width: 80%;
+  margin-top: 50px;
   margin-left: 10%;
   margin-right: auto;
-  min-height: 65.50vh;
+  min-height: 61.75vh;
 }
 
 .landingTitle {
@@ -147,4 +152,25 @@
 
 .projectsName {
   margin-bottom: 10px;
+}
+
+/* setting CSS for mobile device*/
+
+@media (max-device-width: 320px) {
+  .landingTitle {
+    font-size: 1.5rem;
+  }
+  .landingPageText {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .resumeText {
+    font-size: 0.75rem;
+  }
+  .projectsList {
+    font-size: 2rem;
+  }
+  .projectsName {
+    margin-bottom: 3rem;
+  }
 }
