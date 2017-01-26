@@ -37,8 +37,8 @@ export default React.createClass({
           this.state.posts.map((blogPost, i)=>{
             return (
               <div key={i} className="content">
-                <h3> {blogPost.title} </h3>
-                <p className="resumeText"> {blogPost.text} <a href={blogPost.url} target="_blank">See More...</a></p>
+                <h3 className="blogPostTitle"> {blogPost.title} </h3>
+                <p className="blogPostText"> {blogPost.text} <a href={blogPost.url} target="_blank">See More...</a></p>
               </div>
             )
           })
