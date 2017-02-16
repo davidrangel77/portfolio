@@ -162,6 +162,12 @@ a {
 .projectsName {
   margin-bottom: 10px;
 }
+.resumeImg {
+  display: block;
+  width: 62em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* setting CSS for mobile device*/
 @media only screen and (max-device-width: 500px) {
